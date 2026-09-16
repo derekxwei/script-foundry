@@ -28,7 +28,11 @@ sudo apt install -y zenity ufw
 
 ## Usage
 
+Clone the portfolio repository and open this project:
+
 ```bash
+git clone https://github.com/derekxwei/script-foundry.git
+cd script-foundry/bastion-audit
 chmod +x assessment_tool.sh
 ./assessment_tool.sh
 ```
@@ -40,6 +44,12 @@ Each run creates a new report in:
 ```text
 ~/BastionAudit_reports/
 ```
+
+If run from a root shell, reports are written under `/root/BastionAudit_reports/`. From the normal Kali account, use `sudo ls -ld /root/BastionAudit_reports` and `sudo ls -l /root/BastionAudit_reports/` to inspect those existing reports.
+
+## Limitations
+
+This is an educational Version 1.0 tool. The score is a simple lab rubric, not a comprehensive security assessment. Missing authentication logs can yield a zero count; verify log availability before interpreting that result. The script attempts UFW configuration; confirm that its printed status is active rather than relying only on the score.
 
 ## Verify a Run
 
