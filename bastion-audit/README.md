@@ -1,6 +1,6 @@
 # BastionAudit
 
-BastionAudit is a Bash-based Linux security assessment and basic hardening tool created for IS2083 Advanced Scripting Lab 1. It collects common host security information, performs a few practical security checks, enables a default-deny UFW firewall policy, calculates a simple security score, and writes the results to a timestamped report.
+BastionAudit is a Bash-based Linux security assessment and basic hardening tool. It collects common host security information, performs a few practical security checks, enables a default-deny UFW firewall policy, calculates a simple security score, and writes the results to a timestamped report.
 
 ## Features
 
