@@ -10,4 +10,10 @@ A Bash-based Linux security assessment and basic hardening tool. It inventories 
 
 Project files: [`bastion-audit/`](./bastion-audit/)
 
+### WinGuard
+
+A PowerShell Windows 11 security audit and hardening tool. It checks baseline and advanced controls, can apply supported fixes in a practice VM, and reports before and after scores.
+
+Project files: [`winguard/`](./winguard/)
+
 This collection will grow as new tools are built, tested, and refined.
